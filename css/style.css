@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #d8d6d6;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: inherit;
+}
+li{
+    list-style: none;
+}
+
+.wrapper{
+    height: 53vh;
+    width: 350px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: 0 0 10px rgb(151, 149, 149);
+}
+.upper{
+    height: 130px;
+    width: 100%;
+    background: #107bff;
+    overflow: visible;
+    text-align: center;
+}
+.imgWrap{
+    height: 123px;
+    width: 123px;
+    border-radius: 50%;
+    border: 2px solid #107bff;;
+    display: inline-block;
+    transform: translateY(20px);
+}
+img{
+    height: 120px;
+    width: 120px;
+    display: inline-block;
+    border-radius: 500px;
+    border: 2px solid #fff;
+}
+.lower{
+    background: #fff;
+    height: 100%;
+    padding: 40px;
+}
+.lower div{
+    margin: 5px;
+    padding: 5px;
+}
+.lower > div:nth-child(1){
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+}
+.lower > div:nth-child(2){
+    font-size: 15px;
+    text-align: center;
+    color: #494949;
+    margin: 5px;
+}
+.lower > div:nth-child(3){
+    display: flex;
+    justify-content: space-around;
+}
+.lower > div:nth-child(3) ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 26px;
+    color: #000;
+}
+.lower div:nth-child(4){
+    display: flex;
+    justify-content: space-around;
+}
+.follow,
+.message{
+    width: 40%;
+    text-align: center;
+    color: #fff;
+    background: #107bff;
+    border-radius: 500px;
+}
+.lower > div:nth-child(5) ul{
+    display: flex;
+    justify-content: space-between;
+}
+.lower > div:nth-child(5) a{
+    width: 33%;
+    text-align: center;
+    font-size: 14px;
+}
+.lower > div:nth-child(5) ul > a:nth-child(1),
+.lower > div:nth-child(5) ul > a:nth-child(2){
+    border-right: 2px solid rgb(192, 189, 189);
+}
